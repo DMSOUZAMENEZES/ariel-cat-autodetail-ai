@@ -25,6 +25,20 @@ Active services in this sprint:
 
 Out of scope for this sprint: AI, WhatsApp, n8n, PDF generation, worker and nginx.
 
+## Workspace
+
+Install frontend workspace dependencies:
+
+```bash
+pnpm install
+```
+
+Run the frontend locally:
+
+```bash
+pnpm --filter @autodetail/frontend dev
+```
+
 ## Backend database
 
 Run migrations from `apps/backend`:
