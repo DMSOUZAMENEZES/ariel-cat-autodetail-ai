@@ -24,3 +24,17 @@ Active services in this sprint:
 - Redis on `localhost:6379`
 
 Out of scope for this sprint: AI, WhatsApp, n8n, PDF generation, worker and nginx.
+
+## Backend database
+
+Run migrations from `apps/backend`:
+
+```bash
+alembic upgrade head
+```
+
+Run demo seeds:
+
+```bash
+python -m app.db.seed
+```
